@@ -8,6 +8,7 @@ body {
     background-image: url(https://source.unsplash.com/1600x900/?nature,water);
     font-family: "CartoGothic Std", sans-serif;
     font-size: 110%;
+    text-transform: capitalize;
 }
 .main-body {
     background: #000000d0;
@@ -60,4 +61,27 @@ body {
 
 .weather-details {
     padding-left: 1em;
+}
+
+.temp-flex {
+    display: flex;
+    align-items: center;
+}
+
+.temp {
+    padding-right: 20px;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
 }

@@ -13,7 +13,7 @@
             <div class="main-body">
                 <div class="search">
 
-                    <input type="text" placeholder="Search" class="search-box" />
+                    <input type="text" placeholder="Enter City Name" class="search-box" />
                     <button class="search-btn">
 
                         <svg
@@ -32,17 +32,28 @@
                     </button>
                 </div>
                 
-            <div class="selected-city">
-                <h3 class="city-name">Weather in Ahmedabad</h2>
-            </div>
+                <div class="weather loading">
 
-            <div class="weather-details">
-                <h1 class="temperature">50°C</h1>
-                <img src="" alt="" class="weather-icon" />
-                <div class="description">Cloudy</div>
-                <div class="humidity">Humidity : 90%</div>
-                <div class="wind-speed">Wind Speed : 50kmph</div>
-            </div>
+                    <div class="selected-city">
+                        <h3 class="city-name">Weather in Ahmedabad</h2>
+                    </div>
+            
+                    <div class="weather-details">
+                        <div class="temp-flex">
+                            <h1 class="temp">--</h1>
+                            <img src="" alt="" class="weather-icon" />
+                            <div class="description">--</div>
+                        </div>
+                        <br>
+                        <div class="feels-like">Feels like : --</div>
+                        <div class="humidity">Humidity : --</div>
+                        <br>
+                        <div class="sunrise">Sunrise : --</div>
+                        <div class="sunset">Sunset : --</div>
+                    </div>
+                </div>
         </div>
+
+        <script src="./js/index.js"></script>
     </body>
 </html>
