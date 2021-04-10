@@ -18,3 +18,46 @@ body {
     margin: 1em;
     border-radius: 30px;
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    padding: 0.8em 1.5em;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    width: calc(100% - 50px);
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    background: #a0a0a0;
+    transition: 0.2s ease-in-out;
+}
+
+.search-btn {
+    height: 50px;
+    width: 60px;
+    margin-left: 1em;
+    border-radius: 24px;
+    background: #a0a0a0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.search-btn:hover {
+    background: #696969;
+}
+
+.selected-city {
+    padding-left: 1em;
+}
+
+.weather-details {
+    padding-left: 1em;
+}
