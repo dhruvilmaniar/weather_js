@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+    font-family: "CartoGothic Std", sans-serif;
+    font-size: 110%;
+}
+.main-body {
+    background: #000000d0;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 30px;
+}
