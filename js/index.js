@@ -54,8 +54,8 @@ function searchCity() {
     let cityName = document.querySelector(".search-box");
     if (cityName.value != "") {
         document.querySelector(".weather").classList.add("loading");
-        console.log(cityName.value);
-        getDatafromAPI(cityName.value);
+        console.log(cityName.value.trim());
+        getDatafromAPI(cityName.value.trim());
         cityName.value = "";
     } else getDatafromAPI();
 }
